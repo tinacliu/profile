@@ -1,0 +1,104 @@
+body {
+  background-color: #F6E6D3;
+  color: rgba(40,40,40,0.9);
+  font-size: 12.5px;
+}
+
+body, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+h1, h2 {
+  font-family: 'Noto Serif', serif;
+  color: rgb(80,80,80);
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0px;
+}
+
+h3{
+  font-size: 13px;
+  margin: 10px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #658EB9;
+}
+
+a:hover {
+  text-decoration: underline #F2451F;
+  color: #454545;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 20px auto; /* This automatically sets left/right margins */
+  background-color: white;
+  text-align: justify;
+  border-left: 3px solid #F2451F;
+  padding: 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    text-align: left;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    text-align: left;
+  }
+}
+
+.card-lightpeach {
+    background-color: rgba(246,230,211,0.15);
+    margin: 15px 0px;
+    padding: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 5px 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.textbox-right{
+  text-align: right;
+}
+
+.socialmedia_icons{
+  font-size: 18px;
+}
+
+#banner_image_large {
+  width: 100%;
+  margin: 15px 0px 5px 0px;
+  background: white;                         /* White background */
+  box-shadow: 0 10px 20px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+#bio-box {
+  padding: 0px 10px;
+}
+
+#footer {
+  padding: 10px;
+  font-size: 9px;
+}
